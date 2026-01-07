@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:beige;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100vh;
+}
+
+#todo {
+  width: 100%;
+  height: 100vh;          
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: thistle;
+  color: beige;
+}
+
+input {
+  padding: 10px;
+  width: 260px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 18px;
+  margin-bottom: 12px;
+}
+
+ul {
+  width: 270px;
+  list-style: disc;
+}
+
+li {
+  font-size: 1.2rem;
+  margin: 6px 0;
+}
+
+#todo h1 {
+  color: #0b1220;  
+}
+
+li {
+  color: #111827;   
+  font-size: 1.2rem;
+  margin: 6px 0;
+}
+
+#para {
+  color: #0f172a;
+}
