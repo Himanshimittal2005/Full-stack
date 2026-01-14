@@ -1,0 +1,53 @@
+/* Full page layout */
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  font-family: Arial, sans-serif;
+}
+
+/* Light theme */
+.page.light {
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* Dark theme */
+.page.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Content box */
+.content {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: inherit;
+}
+
+/* Button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+
+  background-color: #007bff;
+  color: white;
+}
+
+/* Button hover */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Button click effect */
+button:active {
+  transform: scale(0.95);
+}
