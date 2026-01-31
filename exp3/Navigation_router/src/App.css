@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Page background */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1c0033, #2a004f, #3f0071);
+  color: #f3eaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+div {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 40px;
+  border-radius: 18px;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(14px);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Headings */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 12px;
+  color: #ff6ec7;
+  text-shadow: 0 0 10px rgba(255, 110, 199, 0.45);
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-weight: 400;
+  color: #e6d9ff;
+  line-height: 1.6;
+}
+
+/* Dashboard heading */
+h1 + h2 {
+  margin-top: 20px;
+}
+
+/* Buttons */
+button {
+  margin: 20px 10px 0;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #ff6ec7, #c77dff);
+  color: #2a003d;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button hover */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(199, 125, 255, 0.45);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Marquee text */
+marquee h1 {
+  font-size: 2rem;
+  color: #ffd166;
+  margin-bottom: 20px;
+}
