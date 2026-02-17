@@ -7,7 +7,7 @@ import './App.css'
 function Home() {
   return (
     <>
-    <h1>Hi, I’m Anna </h1>
+    <h1>Hi, I’m Himanshi </h1>
     <h2>A passionate Full-Stack Developer in the making</h2>
     <h2>I build clean, user-friendly web experiences with purpose.</h2>
     </>
@@ -18,7 +18,7 @@ function Contact() {
   return (
     <>
     <h1>Let’s Connect </h1>
-    <h2>Email: anna.dev@gmail.com</h2>
+    <h2>Email: himanshi.dev@gmail.com</h2>
     <h2>LinkedIn: linkedin.com/in/anna</h2>
     <h2>Open to internships, projects & collaborations</h2>
     </>
@@ -27,7 +27,7 @@ function Contact() {
 function Profile() {
   return  ( 
     <>
-      <h1>Anna</h1>
+      <h1>Himanshi</h1>
       <h2>Full-Stack Developer | AI-ML Enthusiast</h2>
       <h2>
 Third-year Computer Science student with a strong interest in

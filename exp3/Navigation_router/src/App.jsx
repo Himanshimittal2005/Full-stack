@@ -9,7 +9,7 @@ function Profile(){
       <marquee loops="5">
         <h1>Welcome to my Profile</h1>
       </marquee>
-      <h1>Anna</h1>
+      <h1>Himanshi</h1>
       <h2>Full-Stack Developer | AI-ML Enthusiast</h2>
       <h2>
 Third-year Computer Science student with a strong interest in
